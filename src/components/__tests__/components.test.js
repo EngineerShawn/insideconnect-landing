@@ -4,12 +4,12 @@ import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
 // Import all components
-import HeroSection from '../src/components/HeroSection';
-import FeaturesSection from '../src/components/FeaturesSection';
-import PricingSection from '../src/components/PricingSection';
-import TestimonialsSection from '../src/components/TestimonialsSection';
-import FAQSection from '../src/components/FAQSection';
-import Footer from '../src/components/Footer';
+import HeroSection from '../HeroSection';
+import FeaturesSection from '../FeaturesSection';
+import PricingSection from '../PricingSection';
+import TestimonialsSection from '../TestimonialsSection';
+import FAQSection from '../FAQSection';
+import Footer from '../Footer';
 
 // HeroSection tests
 describe('HeroSection', () => {
