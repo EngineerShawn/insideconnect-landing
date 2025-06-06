@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Import all sections
+import HeroSection from "./components/HeroSection";
+import ProblemSection from "./components/ProblemSection";
+import SolutionSection from "./components/SolutionSection";
+import FeaturesSection from "./components/FeaturesSection";
+import TestimonialSection from "./components/TestimonialSection";
+import TimelineSection from "./components/TimelineSection";
+import PricingSection from "./components/PricingSection";
+import FooterSection from "./components/FooterSection";
+
+export default function App() {
+    return (
+        <main>
+            {/* Render all sections in the specified order */}
+            <HeroSection />
+            <ProblemSection />
+            <SolutionSection />
+            <FeaturesSection />
+            <TestimonialSection />
+            <TimelineSection />
+            <PricingSection />
+            <FooterSection />
+        </main>
+    );
 }
-
-export default App;
